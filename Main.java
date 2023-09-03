@@ -7,6 +7,8 @@ public class Main {
         Shape rhombus = new Rhombus(-10, 5, 8, 6);
         Shape triangle = new Triangle(25,-15,3,4,5);
         Text description = new Text(0,0);
+        ShapeName shapeName = new ShapeName();
+
 
 
         description.insertText("Hi, this is my first Java OOP project!");
@@ -20,6 +22,8 @@ public class Main {
         System.out.println();
         System.out.println("triangle.getName() = " + triangle.getName());
         System.out.println("triangle.calculateArea() = " + triangle.calculateArea());
+        System.out.println();
+        System.out.println("shapeName.getName(circle) = " + shapeName.getName(triangle));
     }
 
 }
